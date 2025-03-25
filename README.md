@@ -54,23 +54,3 @@ Help — open documentation.
 Language: Go (compiles to .exe).
 Library: rich-go for Discord RPC.
 Platform: Windows (can be adapted for macOS/Linux).
------------------------------------------------------------------------
-🚀 Пример кода / Code Example
-go
-
-activity := client.Activity{
-    Details:    "My Awesome Launcher",  // Основной текст / Main text
-    State:      "v1.2.0 • With Mods",  // Доп. информация / Additional info
-    LargeImage: "main_icon",           // Ключ картинки / Image key
-    Buttons: []*client.Button{
-        {Label: "Download", Url: "https://example.com/download"},
-        {Label: "Help", Url: "https://example.com/docs"},
-    },
-}
-
-🎨 Где использовать? / Use Cases:
-Игровые лаунчеры / Game launchers.
-
-Стримерские утилиты / Streamer tools.
-
-Кастомные статусы / Custom Discord profiles.
